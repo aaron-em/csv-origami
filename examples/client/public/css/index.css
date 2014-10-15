@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+}
+
+div.row > div {
+  padding: 1ex;
+  display: table-row;
+  height: 100%;
+}
+
+div.header {
+  text-align: center;
+  font-size: large;
+}
+
+div#input {
+  text-align: center;
+}
+
+div#viewer > div.controls {
+  padding: 0ex;
+  margin: 0ex;
+}

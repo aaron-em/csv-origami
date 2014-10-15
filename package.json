@@ -1,0 +1,38 @@
+{
+  "name": "csv-origami",
+  "version": "0.0.0",
+  "description": "Fold a flat CSV into a nested JSON blob based on headers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aaron-em/csv-origami"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "csv-to-json",
+    "csv to json"
+  ],
+  "author": "Aaron Miller <me@aaron-miller.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaron-em/csv-origami/issues"
+  },
+  "homepage": "https://github.com/aaron-em/csv-origami",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-shell": "^1.1.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "jshint": "^2.5.6",
+    "mocha": "^1.21.4",
+    "chai": "^1.9.2",
+    "lodash": "^2.4.1",
+    "istanbul": "^0.3.2",
+    "express": "^4.9.7",
+    "minimist": "^1.1.0"
+  }
+}
